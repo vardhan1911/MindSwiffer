@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		E375162B1C210C3F00CD1503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375162A1C210C3F00CD1503 /* AppDelegate.swift */; };
-		E375162D1C210C3F00CD1503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375162C1C210C3F00CD1503 /* ViewController.swift */; };
 		E37516301C210C3F00CD1503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E375162E1C210C3F00CD1503 /* Main.storyboard */; };
 		E37516321C210C3F00CD1503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37516311C210C3F00CD1503 /* Assets.xcassets */; };
 		E37516351C210C3F00CD1503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37516331C210C3F00CD1503 /* LaunchScreen.storyboard */; };
 		E37516401C210C3F00CD1503 /* TestViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375163F1C210C3F00CD1503 /* TestViewTests.swift */; };
 		E375164B1C210C3F00CD1503 /* TestViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375164A1C210C3F00CD1503 /* TestViewUITests.swift */; };
+		E37516641C24573800CD1503 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37516631C24573800CD1503 /* MenuViewController.swift */; };
+		E37516681C25985A00CD1503 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37516671C25985A00CD1503 /* GameViewController.swift */; };
+		E375166A1C25D19B00CD1503 /* GameColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37516691C25D19B00CD1503 /* GameColors.swift */; };
+		E375166C1C25DF0C00CD1503 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375166B1C25DF0C00CD1503 /* Brain.swift */; };
+		E375166E1C25E83E00CD1503 /* TileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375166D1C25E83E00CD1503 /* TileButton.swift */; };
+		E375167E1C28FA0600CD1503 /* MainNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375167D1C28FA0600CD1503 /* MainNavController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		E37516271C210C3F00CD1503 /* TestView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E375162A1C210C3F00CD1503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E375162C1C210C3F00CD1503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E375162F1C210C3F00CD1503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E37516311C210C3F00CD1503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E37516341C210C3F00CD1503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		E37516461C210C3F00CD1503 /* TestViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E375164A1C210C3F00CD1503 /* TestViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewUITests.swift; sourceTree = "<group>"; };
 		E375164C1C210C3F00CD1503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37516631C24573800CD1503 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E37516671C25985A00CD1503 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E37516691C25D19B00CD1503 /* GameColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameColors.swift; sourceTree = "<group>"; };
+		E375166B1C25DF0C00CD1503 /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		E375166D1C25E83E00CD1503 /* TileButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileButton.swift; sourceTree = "<group>"; };
+		E375167D1C28FA0600CD1503 /* MainNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,12 @@
 		E375161E1C210C3F00CD1503 = {
 			isa = PBXGroup;
 			children = (
+				E37516691C25D19B00CD1503 /* GameColors.swift */,
+				E375166D1C25E83E00CD1503 /* TileButton.swift */,
+				E375166B1C25DF0C00CD1503 /* Brain.swift */,
+				E37516671C25985A00CD1503 /* GameViewController.swift */,
+				E375167D1C28FA0600CD1503 /* MainNavController.swift */,
+				E37516631C24573800CD1503 /* MenuViewController.swift */,
 				E37516291C210C3F00CD1503 /* TestView */,
 				E375163E1C210C3F00CD1503 /* TestViewTests */,
 				E37516491C210C3F00CD1503 /* TestViewUITests */,
@@ -97,12 +113,8 @@
 		E37516291C210C3F00CD1503 /* TestView */ = {
 			isa = PBXGroup;
 			children = (
-				E375162A1C210C3F00CD1503 /* AppDelegate.swift */,
-				E375162C1C210C3F00CD1503 /* ViewController.swift */,
 				E375162E1C210C3F00CD1503 /* Main.storyboard */,
-				E37516311C210C3F00CD1503 /* Assets.xcassets */,
-				E37516331C210C3F00CD1503 /* LaunchScreen.storyboard */,
-				E37516361C210C3F00CD1503 /* Info.plist */,
+				E37516581C210C8500CD1503 /* Supporting Files */,
 			);
 			path = TestView;
 			sourceTree = "<group>";
@@ -123,6 +135,17 @@
 				E375164C1C210C3F00CD1503 /* Info.plist */,
 			);
 			path = TestViewUITests;
+			sourceTree = "<group>";
+		};
+		E37516581C210C8500CD1503 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E375162A1C210C3F00CD1503 /* AppDelegate.swift */,
+				E37516311C210C3F00CD1503 /* Assets.xcassets */,
+				E37516331C210C3F00CD1503 /* LaunchScreen.storyboard */,
+				E37516361C210C3F00CD1503 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E375162D1C210C3F00CD1503 /* ViewController.swift in Sources */,
 				E375162B1C210C3F00CD1503 /* AppDelegate.swift in Sources */,
+				E37516681C25985A00CD1503 /* GameViewController.swift in Sources */,
+				E37516641C24573800CD1503 /* MenuViewController.swift in Sources */,
+				E375167E1C28FA0600CD1503 /* MainNavController.swift in Sources */,
+				E375166E1C25E83E00CD1503 /* TileButton.swift in Sources */,
+				E375166C1C25DF0C00CD1503 /* Brain.swift in Sources */,
+				E375166A1C25D19B00CD1503 /* GameColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +513,7 @@
 				E37516511C210C3F00CD1503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E37516521C210C3F00CD1503 /* Build configuration list for PBXNativeTarget "TestViewTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +522,7 @@
 				E37516541C210C3F00CD1503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E37516551C210C3F00CD1503 /* Build configuration list for PBXNativeTarget "TestViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +531,7 @@
 				E37516571C210C3F00CD1503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
